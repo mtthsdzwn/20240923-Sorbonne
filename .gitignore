@@ -1,0 +1,14 @@
+/.quarto/
+/_site/
+
+20240923-Sorbonne-abstract_files/
+20240923-Sorbonne-present_files/
+
+*.html
+*.pdf
+*.typ
+*.tex
+*.docx
+
+.DS_Store
+/img/backup

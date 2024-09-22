@@ -1,0 +1,217 @@
+---
+title: "Using open data for <br/>research assessment <br/>in the Netherlands"
+subtitle: "Open enough to get a foot in the door"
+author:
+  - name: Matthijs de Zwaan
+    orcid: 0000-0002-6983-2118
+    email: m.c.de.zwaan@vu.nl
+    affiliation: 
+      - name: Vrije Universiteit Amsterdam
+        url: https://www.vu.nl/
+lang: en
+date: 2024-09-23
+date-format: "D MMMM YYYY"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: print
+    theme: [simple, "stylefiles/VU-revealjs.scss"]
+    template-partials:
+      - "stylefiles/title-slide.html"
+    preview-links: auto
+    callout-icon: false
+    center: false
+---
+
+##  {#intro data-menu-title="Epic!" }
+
+![](img/godzilla_vs_kong_768x432.png){.fragment fragment-index=1 .semi-fade-out .absolute top="0%" right="20%"}
+
+![](img/leonidas_768x432.png){.fragment fragment-index=1 .fade-in-then-semi-out .absolute top="20%" left="5%"}
+
+![](img/LotR_768x432.png){.fragment fragment-index=2 .fade-in-then-semi-out .absolute top="10%" left="20%"}
+
+## Context: Strategy evaluation protocol
+::::: {layout="[40, -5, 55]" layout-valign="top"}
+
+:::: {}
+::: {}
+![](img/SEP_2021-2027-title.png)
+:::
+::::
+
+:::: {}
+::: {.callout}
+> &#8230;evaluate a research unit in light of its own aims and strategy&#8230;
+
+> &#8230;coherent narrative argument supported by factual evidence&#8230;
+:::
+
+::: {.callout}
+- Research units evaluated every six years
+- Consortium of eight psychology departments in NL
+- Psych @ VU project lead,<br/>asked team to support consortium analysis
+:::
+
+::::
+
+:::::
+
+::: {.notes}
+Explain what the SEP is, and how we got involved in this project
+:::
+
+## Why use open information?
+::::: {layout="[55, -5, 40]" layout-valign="top"}
+
+:::: {}
+::: {.callout-note}
+## Why?
+- Transparency, acountability, etc, etc
+- Library pushes for Open Science,<br/>opportunity to 'practice what we preach'
+:::
+
+::: {.callout-note}
+## Solution looking for a problem?
+- Does not solve a pressing problem for users
+:::
+::::
+
+:::: {}
+::: {}
+![](img/godzilla_vs_kong_400x550.png)
+<!-- ![]({{< placeholder 400 550 format=svg >}}) -->
+:::
+::::
+
+:::::
+
+::: {.notes}
+Explain the reasoning behind using open data
+Discuss problems that you might encounter (but we didn't)
+::: 
+
+## But are the data any good?
+::::: {layout="[40, -5, 55]" layout-valign="top"}
+:::: {}
+::: {.r-stack}
+
+![](img/leonidas_400x550.png){.fragment fragment-index=1 .fade-out }
+
+![](img/back-to-the-future_400x550.png)
+
+:::
+::::
+
+:::: {}
+::: {.callout-note .fragment fragment-index=1 .semi-fade-out}
+## Questions about data validity
+Our source: [OpenAlex](https://openalex.org/works)<br/>
+Coverage very good<br/>
+Validity not well known
+:::
+
+::: {.callout-note .fragment fragment-index=1 .semi-fade-out}
+## Use trusted data to validate
+Access to validated CRIS data<br/>
+Basic information correct<br/>
+Easier to accept 
+:::
+
+::::
+:::::
+
+::: {.fragment fragment-index=1 .fade-in .absolute top="25%" left="25%"}
+::: {.callout-note style="background-color: #ffffff;"}
+## Back to the future
+Community & Openalex did loads of work<br/>
+e.g. CWTS open ranking
+
+:::
+:::
+
+## But can we do {x,y,z}?
+
+::::: {layout="[55, -5, 40]" layout-valign="top"}
+
+:::: {}
+::: {.callout-note .fragment fragment-index=1 .semi-fade-out}
+## {Classification, Citations, Cooperation}
+- Classification, Citations:<br>&emsp;&emsp;*Available in Openalex*<br/>
+- Cooperation, field-norm citations:<br>&emsp;&emsp;*Can be constructed from CRIS data*<br/>&emsp;&emsp;*and/or Openalex*
+
+Takes (some) skill and effort
+:::
+
+::::
+
+:::: {}
+::: {.r-stack}
+
+![](img/LotR_400x550.png){.fragment fragment-index=1 .fade-out }
+
+![](img/back-to-the-future_400x550.png)
+
+:::
+::::
+
+:::::
+
+::: {.fragment fragment-index=1 .fade-in .absolute top="25%" left="25%"}
+::: {.callout-note style="background-color: #ffffff;"}
+## Back to the future
+- Much improved topic classification
+- Field-weighted citation index added
+:::
+:::
+
+
+::: {.notes}
+::: 
+
+## What did the assessees/-ors say? 
+::: {.column-page}
+
+![](img/Dutch_Psychology_pres-overview.png){.shadow .absolute right="65%" top="20%" width="400pt"}
+
+![](img/Dutch_Psychology_pres-collabs.png){.shadow .absolute left="15%" top="55%" width="400pt"}
+
+![](img/Dutch_Psychology_pres-FoR.png){.shadow .absolute left="60%" top="25%" width="400pt"}
+
+:::
+
+## Take-aways
+::::: {layout="[55, -5, 40]" layout-valign="top"}
+::::{}
+::: {.callout-note}
+## Many points for discussion
+
+- but no huge problems for open data
+- Skillfully avoided? Just lucky?
+- May be, (part of) the world is<br/>just ready for open data
+
+:::
+::::
+:::: {}
+::: {}
+
+![]( img/puppy.png ){.fragment}
+
+:::
+::::
+:::::
+
+## {data-menu-title="Appendix" .appendix}
+
+## {#psych-dashboard data-menu-title="Dashboard" .appendix}
+
+<iframe title="2023_psychologie_dashboard" width="1024" height="804" src="https://app.powerbi.com/reportEmbed?reportId=a7d3e194-083e-4ea0-8f3b-bf237d9cf9de&autoAuth=true&ctid=462a9c9c-2da6-4bfb-b318-0f83043fe49b&pageName=ReportSectionaf1046f0a1ad4e3ac012" frameborder="0" allowFullScreen="true"></iframe>
+
+
+<!-- ## Abstract {.smaller .scrollable}
+
+In 2023, psychological research at a consortium of eight Dutch universities was evaluated following the Strategy Evaluation Protocol (SEP). The SEP lays out the procedure and requirements to evaluate research at Dutch public institutions, similar to the Research Excellence Framework in the UK. The research intelligence (RI) team at the Vrije Universiteit Amsterdam provided support in the preparation of the joint assessment. 
+
+The consortium, following a proposal from the RI team, decided to combine closed data from local research information systems with open metadata from OpenAlex for a bibliometric analysis of its research output. In this presentation, I will describe why and how we came to this decision; what problems we encountered and how we solved them (or didn't); present some of the analyses we did; and discuss the reactions from the consortium and the assessment committee to the analysis, all focusing on the use of open data. 
+
+This case shows how using open research information need not be an all-or-nothing decision. By combining open and closed data, it is possible to manage discussions about reliability and quality of new open data sources, while at the same familiarising a new group of people with these sources and the benefits that they can bring. -->

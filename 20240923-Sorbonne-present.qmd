@@ -10,7 +10,7 @@ author:
         url: https://www.vu.nl/
 lang: en
 date: 2024-09-23
-date-format: "D MMMM YYYY"
+date-format: "D MMMM YYYY, Sorbonne"
 format: 
   revealjs:
     slide-number: true
